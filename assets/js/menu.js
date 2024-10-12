@@ -1,4 +1,4 @@
-//
+
 function filterPokemon() {
     const searchInput = document.getElementById('searchInput').value.toLowerCase();
 
