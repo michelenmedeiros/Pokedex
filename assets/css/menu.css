@@ -11,17 +11,21 @@ header {
     font-size: 1.5rem;
     background-color: transparent; 
     border: none;
+    cursor: pointer;
+    align-items: center;
+    width: 100%;
 }
 
 .hidden {
     display: none;
     position:inherit;
+
 }
   
 #menu {
     background-color: #fff;
     padding: 5px 10px;
-    margin: 1px 8px;
+    margin: 0;
     border: 1px solid #df2c2c;
     border-radius: 6px;
     font-size: .825rem;
@@ -45,44 +49,19 @@ header {
     margin: 10px;
 }
 
-.container {
-    margin-top: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.openPokeball img {
-    height: 40px;
-    width: 40px;
-}
-
-.pokedexTitle h1 {
-    font-size: 2rem;
-    font-weight: 1000;
-    color: #df2c2c;
-    -webkit-text-stroke: 2.5px #ff4b4158;
-    text-transform: lowercase;
-    margin: 0 10px;
-}
-
-.pokeballOpen img {
-    height: 40px;
-    width: 40px;
-}
-
 .search-bar {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 .search-bar input {
     padding: 5px 5px;
     margin: 0 20px;
-    font-size: .725rem;
+    font-size: .825rem;
     border: 1px solid #df2c2c;
     border-radius: 8px;
     float: left;
-    width: 200px;
+    width: 250px;
 }
-

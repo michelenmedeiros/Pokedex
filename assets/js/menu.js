@@ -1,13 +1,21 @@
 function filterPokemon() {
     const searchInput = document.getElementById('searchInput').value.toLowerCase();
 
-    // Verifica se o pokemonListData está carregado
     if (pokemonListData.length === 0) {
         console.error('The Pokemon list has not been loaded yet.');
         return;
     }
 
-    const filteredPokemons = pokemonListData.filter(pokemon => pokemon.name.toLowerCase().includes(searchInput));
+    const isNumber = !isNaN(searchInput) && searchInput !== '';
+
+    let filteredPokemons;
+    
+    if (isNumber) {
+        const pokemonNumber = parseInt(searchInput, 10);
+        filteredPokemons = pokemonListData.filter(pokemon => pokemon.number === pokemonNumber);
+    } else {
+        filteredPokemons = pokemonListData.filter(pokemon => pokemon.name.toLowerCase().includes(searchInput));
+    }
 
     if (filteredPokemons.length === 0) {
         pokemonList.innerHTML = `<p class="no-results">No Pokemon found</p>`;
@@ -18,6 +26,7 @@ function filterPokemon() {
         `<li class="pokemon ${pokemon.type}" data-id="${pokemon.number}" data-url="https://pokeapi.co/api/v2/pokemon/${pokemon.number}">
             <span class="number">#${pokemon.number}</span>
             <span class="name">${pokemon.name}</span>
+
             <div class="detail">
                 <ol class="types">
                     ${pokemon.types.map((type) => `<li class="type ${type}">${type}</li>`).join('')}
@@ -29,7 +38,6 @@ function filterPokemon() {
 
     pokemonList.innerHTML = newHtml;
 
-    // Reaplica os eventos de clique e hover
     const pokemonItems = document.querySelectorAll('.pokemon');
     pokemonItems.forEach(item => {
         item.addEventListener('click', function() {

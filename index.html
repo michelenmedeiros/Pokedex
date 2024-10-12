@@ -25,67 +25,87 @@
 
 <header>
     <nav class="menu">
-        <button id="toggleMenu"><i class="fa-solid fa-bars" style="color: #df2c2c;"></i></button>
+        <button id="toggleMenu"><i class="fa-solid fa-bars" style="color: #df2c2cc9;"></i></button>
         <section class="home">
             <div id="menu" class="hidden">
-                <ul>
-                    <li>Theme</li>
-                </ul>
+
             </div>
         </section>
         <div class="search-bar">
-            <input type="text" id="searchInput" placeholder="Search Pokemon..." onkeyup="filterPokemon()" />
+            <input type="text" id="searchInput" placeholder="Search by name or number" onkeyup="filterPokemon()" />
         </div>
     </nav>
 </header>
 
-<body>
-    <div class="container">
-        <div class="openPokeball">
-            <img src="./assets/images/pokeballOpen.png" alt="pokeball open" />
-        </div>
-        <section class="pokedexTitle">
-            <h1>Pokedex</h1>
-        </section>
-        <div class="pokeballOpen">
-            <img src="./assets/images/openPokeball.png" alt="pokeball open" />
-        </div>
-    </div>
-    <section class="pokedex">
-        <section class="content">
-            <ol id="pokemonList" class="pokemons">
-                <!-- Pokemons here-->
-            </ol>
+<main>
+    <body>
+        <section class="pokedex">
+            <section class="content">
+                <div class="container">
+                    <div class="openPokeball">
+                        <img src="./assets/images/pokeballOpen.png" alt="pokeball open" />
+                    </div>
+                    <section class="pokedexTitle">
+                        <h1>Pokedex</h1>
+                    </section>
+                </div>
+                <div class="search-section">
+                    <ul id="typeList" class="type-filter">
+                        <li class="type fire" data-type="fire">Fire</li>
+                        <li class="type water" data-type="water">Water</li>
+                        <li class="type grass" data-type="grass">Grass</li>
+                        <li class="type electric" data-type="electric">Electric</li>
+                        <li class="type ground" data-type="ground">Ground</li>
+                        <li class="type rock" data-type="rock">Rock</li>
+                        <li class="type normal" data-type="normal">Normal</li>
+                        <li class="type ice" data-type="ice">Ice</li>
+                        <li class="type flying" data-type="flying">Flying</li>
+                        <li class="type poison" data-type="poison">Poison</li>
+                        <li class="type fighting" data-type="fighting">Fighting</li>
+                        <li class="type psychic" data-type="psychic">Psychic</li>
+                        <li class="type dark" data-type="dark">Dark</li>
+                        <li class="type bug" data-type="bug">Bug</li>
+                        <li class="type ghost" data-type="ghost">Ghost</li>
+                        <li class="type steel" data-type="steel">Steel</li>
+                        <li class="type dragon" data-type="dragon">Dragon</li>
+                        <li class="type fairy" data-type="fairy">Fairy</li>
+                        <!-- Adicione outros tipos conforme necessário -->
+                    </ul>
+                </div>
+                <div>
+                    <ol id="pokemonList" class="pokemons">
+                        <!-- Pokemons here-->
+                    </ol>
+                </div>
 
-            <div class="pagination">
-                <button id="loadMoreButton" type="button">
-                    <i class="fa-solid fa-arrow-down" style="color: #df2c2c;"></i>
+                <div class="pagination">
+                    <button id="loadMoreButton" type="button">
+                        <i class="fa-solid fa-caret-down" style="color: #e92c2cc9;"></i></i>
+                    </button>
+                    </di>
+            </section>
+        </section>
+        <div id="pokemonModal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close" id="closeModal">&times;</span>
+                <div id="pokemonDetail">
+                    <!-- Pokemons details -->
+                </div>
+                <button id="prevPokemon">
+                    <i class="fa-solid fa-less-than" style="color: #df2c2cc9;"></i>
                 </button>
-                </di>
-        </section>
-    </section>
-    <div id="pokemonModal" class="modal" style="display: none;">
-        <div class="modal-content">
-            <span class="close" id="closeModal">&times;</span>
-            <div id="pokemonDetail">
-                <!-- Pokemons details -->
+                <button id="nextPokemon">
+                    <i class="fa-solid fa-greater-than" style="color: #df2c2cc9;"></i>
+                </button>
             </div>
-            <button id="prevPokemon">
-                <i class="fa-solid fa-less-than" style="color: #df2c2c;"></i>
-            </button>
-            <button id="nextPokemon">
-                <i class="fa-solid fa-greater-than" style="color: #df2c2c;"></i>
-            </button>
         </div>
-    </div>
-
-    <!-- JS -->
-    <script src="/assets/js/pokemon-model.js"></script>
-    <script src="/assets/js/poke-api.js"></script>
-    <script src="/assets/js/main.js"></script>
-    <script src="/assets/js/mode.js"></script>
-    <script src="/assets/js/pokemon-detail.js"></script>
-    <script src="./assets/js/menu.js"></script>
-</body>
-
+    </main>
+        <!-- JS -->
+        <script src="/assets/js/pokemon-model.js"></script>
+        <script src="/assets/js/poke-api.js"></script>
+        <script src="/assets/js/main.js"></script>
+        <script src="/assets/js/mode.js"></script>
+        <script src="/assets/js/pokemon-detail.js"></script>
+        <script src="./assets/js/menu.js"></script>
+    </body>
 </html>
