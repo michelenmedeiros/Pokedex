@@ -33,8 +33,7 @@ Clone o repositório: git clone https://github.com/usuario/pokedex.git
 
 Abra o arquivo index.html no navegador.
 
-![image](https://github.com/user-attachments/assets/ff028d89-8fce-4008-8535-ee47b3587d78)
+![image](https://github.com/user-attachments/assets/1afa8799-3cb3-43cc-8d58-42ac73ef32e7)
+![image](https://github.com/user-attachments/assets/724a063f-bc5d-49da-9ba3-074cf26559a0)
+![image](https://github.com/user-attachments/assets/12726785-cd82-473e-bcfa-4fcf6a364e6f)
 
-![image](https://github.com/user-attachments/assets/452fbefb-cb4d-4f2c-83c8-1425d15afc9d)
-
-![image](https://github.com/user-attachments/assets/ff32d738-9893-4a55-a272-e3c36065dd27)
