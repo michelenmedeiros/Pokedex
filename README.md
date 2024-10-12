@@ -1,15 +1,13 @@
-# Pokedex 👾
+# Pokedex 👾 [EM CONSTRUÇÃO]
 
 Descrição
 
 Este é um projeto de uma Pokedex que permite buscar e visualizar detalhes de até 151 Pokémon. O objetivo deste projeto é praticar e aprimorar habilidades de desenvolvimento web, utilizando JavaScript para manipular dados e criar uma interface interativa.
 
 #### 🌟 Funcionalidades atuais:
-- Busca de Pokémon por nome ou número
+- Busca de Pokémon por nome, número e tipo.
 - Exibição de detalhes básicos dos Pokémon (nome, número, tipo)
 - Carregamento incremental de Pokémon
-- Modo claro e escuro para personalização do tema da página
-- Menu de navegação para facilitar o acesso às funcionalidades
 
 Este projeto está em andamento e novas funcionalidades e melhorias serão implementadas ao longo do tempo.
 
