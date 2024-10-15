@@ -29,8 +29,6 @@ Este projeto está em andamento e novas funcionalidades e melhorias serão imple
 
 Clone este repositório para sua máquina local, e abra o arquivo index.html em seu navegador web.
 
-Abra o arquivo index.html no navegador.
-
 ![image](https://github.com/user-attachments/assets/1afa8799-3cb3-43cc-8d58-42ac73ef32e7)
 ![image](https://github.com/user-attachments/assets/724a063f-bc5d-49da-9ba3-074cf26559a0)
 ![image](https://github.com/user-attachments/assets/12726785-cd82-473e-bcfa-4fcf6a364e6f)
