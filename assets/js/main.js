@@ -114,7 +114,7 @@ function filterPokemonByType(type) {
     const filteredPokemons = pokemonListData.filter(pokemon => pokemon.types.includes(type));
 
     if (filteredPokemons.length === 0) {
-        pokemonList.innerHTML = `<p class="no-results">No Pokémon found of type ${type}</p>`;
+        pokemonList.innerHTML = `<p class="no-results">No Pokemon found of type ${type}</p>`;
         return;
     }
 
