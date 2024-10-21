@@ -29,7 +29,9 @@ Este projeto está em andamento e novas funcionalidades e melhorias serão imple
 
 Clone este repositório para sua máquina local, e abra o arquivo index.html em seu navegador web.
 
-![image](https://github.com/user-attachments/assets/1afa8799-3cb3-43cc-8d58-42ac73ef32e7)
-![image](https://github.com/user-attachments/assets/724a063f-bc5d-49da-9ba3-074cf26559a0)
-![image](https://github.com/user-attachments/assets/12726785-cd82-473e-bcfa-4fcf6a364e6f)
+![image](https://github.com/user-attachments/assets/11c1aeac-bd5b-42ae-9d60-f9ebc621cc26)
+![image](https://github.com/user-attachments/assets/249065fe-e5f1-4746-b96f-9fe2b3754fce)
+![image](https://github.com/user-attachments/assets/3f9548e8-eec9-405f-8545-33eea09fed55)
+
+
 
