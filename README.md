@@ -27,9 +27,7 @@ Este projeto está em andamento e novas funcionalidades e melhorias serão imple
 
 #### Como usar:
 
-Clone o repositório: git clone https://github.com/usuario/pokedex.git
-
-Abra o arquivo index.html no navegador.
+Clone este repositório para sua máquina local, e abra o arquivo index.html em seu navegador web.
 
 ![image](https://github.com/user-attachments/assets/1afa8799-3cb3-43cc-8d58-42ac73ef32e7)
 ![image](https://github.com/user-attachments/assets/724a063f-bc5d-49da-9ba3-074cf26559a0)
